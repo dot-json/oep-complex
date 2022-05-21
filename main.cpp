@@ -93,11 +93,6 @@ bool endState(std::vector<Colony*> hunters){
             state = false;
         }
     }
-    for (const auto& e : hunters){
-        if (e->getCount() >= 4){
-            state = false;
-        }
-    }
     return state;
 }
 

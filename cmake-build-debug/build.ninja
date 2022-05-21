@@ -55,12 +55,6 @@ build CMakeFiles/bead.dir/main.cpp.o: CXX_COMPILER__bead_Debug /home/jonah/repos
   OBJECT_DIR = CMakeFiles/bead.dir
   OBJECT_FILE_DIR = CMakeFiles/bead.dir
 
-build CMakeFiles/bead.dir/test.cpp.o: CXX_COMPILER__bead_Debug /home/jonah/repos/bead/test.cpp || cmake_object_order_depends_target_bead
-  DEP_FILE = CMakeFiles/bead.dir/test.cpp.o.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles/bead.dir
-  OBJECT_FILE_DIR = CMakeFiles/bead.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bead
@@ -69,7 +63,7 @@ build CMakeFiles/bead.dir/test.cpp.o: CXX_COMPILER__bead_Debug /home/jonah/repos
 #############################################
 # Link the executable bead
 
-build bead: CXX_EXECUTABLE_LINKER__bead_Debug CMakeFiles/bead.dir/main.cpp.o CMakeFiles/bead.dir/test.cpp.o
+build bead: CXX_EXECUTABLE_LINKER__bead_Debug CMakeFiles/bead.dir/main.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   OBJECT_DIR = CMakeFiles/bead.dir
