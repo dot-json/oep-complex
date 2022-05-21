@@ -1,0 +1,3 @@
+/home/jonah/repos/bead/cmake-build-debug/CMakeFiles/bead.dir
+/home/jonah/repos/bead/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jonah/repos/bead/cmake-build-debug/CMakeFiles/rebuild_cache.dir
